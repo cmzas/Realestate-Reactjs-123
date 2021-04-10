@@ -1,0 +1,84 @@
+// footer
+$color-orange:#FFA700;
+$color-white:#ffffff;
+$color-black: #000000;
+$color-lightgray:#EFEFEF;
+$color-blue:#0C71C3;
+$color-darkgray:#808080;
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding-bottom: 300px; //height of the footer
+    box-sizing: border-box;
+    @media only screen and (max-width:992px){
+        padding-bottom: 600px;
+     }
+     @media only screen and (max-width:768px){
+        padding-bottom: 800px;
+     }
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    height:300px;
+    width: 100%;
+    @media only screen and (max-width:992px){
+       height: 600px;
+    }
+    @media only screen and (max-width:768px){
+        height: 800px;
+     }
+  }
+
+footer{
+    background-color: $color-black;
+    color: white;
+}
+.footer-heading h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    // color: $color-orange;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 70px 0px 15px 0px;
+    @media only screen and (max-width:768px){
+        margin-top: 40px;
+    }
+}
+
+.footer-list ul li{
+    list-style: none;
+    font-size: 18px;
+    padding: 5px 0px;
+}
+.footer-list ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-list ul li a:hover{
+    color:$color-darkgray;
+}
+.footer-list ul{
+    padding-left: 0px;
+}
+.social-icons li{
+    display: inline;
+    margin: 0px 10px;
+}
+.social-icons li a i{
+    font-size: 30px;
+    color:$color-orange
+}
+.social-icons li a i:hover{
+    color: #ffa600cc !important;
+}
+.footer-list ul li span{
+    color: $color-orange;
+}
+.address li span{
+    color: $color-white !important;
+    font-weight: bold;
+    padding-right: 10px;
+}

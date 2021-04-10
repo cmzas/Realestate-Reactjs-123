@@ -1,0 +1,95 @@
+$color-orange:#FFA700;
+$color-white:#ffffff;
+$color-black: #000000;
+$color-lightgray:#EFEFEF;
+$color-blue:#0C71C3;
+$color-darkgray:#808080;
+.contact-banner{
+    background-image:
+        linear-gradient(to bottom, rgba(247, 140, 17, 0.82), rgba(19, 70, 117, 0.73)),
+        url('../../elements/Images/contact-bg.jpg');
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+}
+.form-left{
+    background-color: $color-white;
+}
+.form-right{
+    background-color: rgba(15, 15, 14, 0.82);
+  
+}
+.form-left-heading h1{
+    color: $color-orange;
+    font-size: 20px;
+    font-weight: bold;   
+}
+.form-left-border{
+    border: 1px solid $color-black;
+    margin: 10px 0px;
+}
+.icon i{
+    color: $color-orange;
+    font-size: 30px;
+    padding-left:18px ;
+   
+}
+.head-office-address p{
+    font-size: 18px;
+
+}
+.head-office-number p{
+    font-size: 18px;
+}
+.regional-office-address p{
+    font-size: 18px;
+
+}
+.regional-office-number p{
+    font-size: 18px;
+}
+.regional-office-address p{
+    font-size: 18px;
+}
+.regional-office-image img{
+    width: 100%;
+    padding: 10px 0px 30px 0px;
+}
+
+// form right
+.form-right-heading h1{
+    color: $color-white;
+    font-weight: bold;
+    padding: 50px 0px 10px 0px;
+}
+
+form input{
+    background-color: $color-black !important;
+    border:1px solid $color-darkgray !important;
+    padding: 25px 0px 25px 10px !important;
+    color:$color-white !important;
+}
+form input::placeholder{
+    color:$color-darkgray !important;
+}
+form textarea{
+    background-color:$color-black !important;
+    border:1px solid $color-darkgray !important;
+    height: 200px !important;
+    margin-bottom:20px ;
+    color:$color-white !important;
+}
+form textarea::placeholder{
+    color: $color-darkgray !important;
+}
+form button{
+    width: 100%;
+    background-color: $color-orange !important;
+    border: none !important;
+    font-size: 20px !important;
+    font-weight: bold;
+    color: white;
+    padding: 8px 0px;
+    border-radius: 5px;
+
+}
